@@ -1,0 +1,38 @@
+{
+  "kindred": {
+    "ads": 110,
+    "auto": 98,
+    "field_accuracy_pct": {
+      "creator": 100.0,
+      "hook": 100.0,
+      "format": 100.0
+    },
+    "confidently_wrong": 0,
+    "review": 12,
+    "review_by_cause": {
+      "mangled": 4,
+      "ambiguous": 4,
+      "normal": 4
+    },
+    "undecodable_names": 8,
+    "undecodable_caught_pct": 100.0
+  },
+  "northpeak": {
+    "ads": 140,
+    "auto": 116,
+    "field_accuracy_pct": {
+      "format": 100.0,
+      "hook": 100.0,
+      "creator": 100.0
+    },
+    "confidently_wrong": 0,
+    "review": 24,
+    "review_by_cause": {
+      "normal": 13,
+      "mangled": 7,
+      "ambiguous": 4
+    },
+    "undecodable_names": 11,
+    "undecodable_caught_pct": 100.0
+  }
+}

@@ -1,0 +1,6 @@
+order,verdict,condition,reason
+1,TOO_EARLY,spend < 400,Under $400 spent: not enough data to judge
+2,SCALE,roas >= 2.8 and (hook_rate >= 0.25 or not is_video),"Above the 2.8 ROAS scale bar, and video ads must also stop the scroll (25% hook rate)"
+3,ITERATE,roas >= 2.0,Profitable but below the 2.8 scale bar: test new hooks on this concept
+4,ITERATE,is_video and hook_rate >= 0.30,Strong hook but weak conversion: keep the opening and test the offer or landing page
+5,KILL,True,Below the 2.0 breakeven ROAS

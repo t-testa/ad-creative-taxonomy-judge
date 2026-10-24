@@ -1,0 +1,5 @@
+order,verdict,condition,reason
+1,TOO_EARLY,purchases < 5 or spend < 250,Fewer than 5 purchases or under $250 spent: too early to call
+2,SCALE,cpa <= 38 and ctr >= 0.012,CPA at or under the $38 target with a healthy click-through rate
+3,ITERATE,cpa <= 50,CPA between $38 and the $50 ceiling: test a new hook before scaling
+4,KILL,True,CPA above the $50 ceiling

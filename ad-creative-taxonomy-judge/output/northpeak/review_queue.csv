@@ -1,0 +1,25 @@
+ad_id,platform,ad_name,spend,parse_reason,suggestion
+NP23800067,Meta,UGC_BeforeAfter_Internal_v2,4062.13,missing creator,'internal' is a new creator spelling: map it to a creator value in taxonomy.yaml
+NP23800127,Meta,UGC_PainPoint_Internal_v3,3088.92,missing creator,'internal' is a new creator spelling: map it to a creator value in taxonomy.yaml
+NP23800110,Meta,statc painpt priya v6,2336.25,missing hook,'painpt' looks like hook PAIN_POINT: fix the name or add it as a spelling
+NP23800037,Meta,boosted post,2181.88,"missing format, hook, creator",
+NP23800133,Meta,PRODUCTION_PROMO_INTERNAL_V5,2175.46,missing creator,'internal' is a new creator spelling: map it to a creator value in taxonomy.yaml
+NP23800106,Meta,Staitc_PainPoint_Marcus_v1,1932.64,missing format,'staitc' looks like format STATIC: fix the name or add it as a spelling
+NP23800081,Meta,q3 retarget,1653.03,"missing format, hook, creator",
+NP23800134,Meta,new video final,1619.31,"missing format, hook, creator",
+NP23800135,Meta,UGC_Offer+PainPoint_Priya_V6,1551.11,conflicting values for hook,
+NP23800090,Meta,Static_Offer+SocialProof_Priya_V4,1434.13,conflicting values for hook,
+NP23800000,Meta,boosted post,1213.16,"missing format, hook, creator",
+NP23800063,Meta,stduio-socialproof-sarah-v4,1050.89,missing format,'stduio' looks like format STUDIO: fix the name or add it as a spelling
+NP23800018,Meta,new video final,950.56,"missing format, hook, creator",
+NP23800022,Meta,Copy of Copy of ad,949.96,"missing format, hook, creator",
+NP23800087,Meta,winner relaunch,923.97,"missing format, hook, creator",
+NP23800122,Meta,UGC_Before After_Marc_v01,863.11,missing creator,'marc' looks like creator MARCUS: fix the name or add it as a spelling
+NP23800032,Meta,User Generated_SocialProof+BeforeAfter_Sarah_v01,734.46,conflicting values for hook,
+NP23800084,Meta,carsl_beforeafter_sarah_v05,649.73,missing format,'carsl' looks like format CAROUSEL: fix the name or add it as a spelling
+NP23800075,Meta,ugc-painpt-priya-v05,587.36,missing hook,'painpt' looks like hook PAIN_POINT: fix the name or add it as a spelling
+NP23800046,Meta,Image_PP_Marc_V2,538.07,missing creator,'marc' looks like creator MARCUS: fix the name or add it as a spelling
+NP23800097,Meta,IMG_BeforeAfter+Offer_Priya_v02,532.98,conflicting values for hook,
+NP23800109,Meta,Studio_PainPt_Sarah_v6,527.87,missing hook,'painpt' looks like hook PAIN_POINT: fix the name or add it as a spelling
+NP23800074,Meta,Studio_Offer_Marc_v2,525.34,missing creator,'marc' looks like creator MARCUS: fix the name or add it as a spelling
+NP23800028,Meta,carou-b4after-marcus-v1,220.78,missing hook,'b4after' looks like hook BEFORE_AFTER: fix the name or add it as a spelling

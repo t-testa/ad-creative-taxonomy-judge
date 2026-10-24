@@ -1,0 +1,5 @@
+pandas>=2.0
+numpy>=1.26
+pyyaml>=6.0
+pytest>=8.0
+anthropic>=0.40  # optional: LLM fallback and Claude memo with an API key

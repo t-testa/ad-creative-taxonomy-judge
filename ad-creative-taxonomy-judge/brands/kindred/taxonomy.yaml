@@ -1,0 +1,52 @@
+# Kindred Greens: a subscription brand with a completely different naming
+# convention, two platforms, and a cost-per-acquisition view of performance.
+brand: Kindred Greens
+primary_metric: cpa
+min_confidence: 0.8
+
+exports:
+  - file: kindred_meta.csv
+    platform: Meta
+    columns:
+      "Ad name": ad_name
+      "Ad ID": ad_id
+      "Amount spent (CAD)": spend
+      "Impressions": impressions
+      "Link clicks": clicks
+      "3-second video plays": video_3s
+      "Purchases": purchases
+      "Purchases conversion value": revenue
+  - file: kindred_tiktok.csv
+    platform: TikTok
+    columns:
+      "Ad Name": ad_name
+      "Ad ID": ad_id
+      "Cost": spend
+      "Impressions": impressions
+      "Clicks (Destination)": clicks
+      "Video Views at 3s": video_3s
+      "Complete Payment": purchases
+      "Total Complete Payment Value": revenue
+
+# The brand's naming convention: MONTH | CREATOR | HOOK | FORMAT | LENGTH
+required: [creator, hook, format]
+fields:
+  creator:
+    JEN: [jen, jennifer]
+    ALEX: [alex]
+    MAYA: [maya]
+    NO_CREATOR: [no creator, nocreator, none]
+  hook:
+    FOUNDER_STORY: [founder story, founderstory, founder]
+    INGREDIENT: [ingredient, ingredients, ingr]
+    MORNING_ROUTINE: [morning routine, routine, morning]
+    TASTE_TEST: [taste test, tastetest, taste]
+  format:
+    TALKING_HEAD: [talking head, talkinghead, th]
+    DEMO: [demo, product demo]
+    TESTIMONIAL: [testimonial, testi, review]
+    MEME: [meme, trend]
+  length:
+    15S: [15s, 15 sec]
+    30S: [30s, 30 sec]
+    60S: [60s, 60 sec]

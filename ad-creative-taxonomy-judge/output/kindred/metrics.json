@@ -1,0 +1,230 @@
+{
+  "brand": "Kindred Greens",
+  "slug": "kindred",
+  "primary_metric": "cpa",
+  "platforms": [
+    "Meta",
+    "TikTok"
+  ],
+  "total": {
+    "ads": 110,
+    "spend": 165406.76,
+    "roas": 1.33,
+    "cpa": 40.64,
+    "scale_ads": 20
+  },
+  "parsing": {
+    "ads": 110,
+    "auto": 98,
+    "llm": 0,
+    "review": 12,
+    "typo_corrected": 4,
+    "auto_pct": 89.1,
+    "review_spend": 20175.0,
+    "suggested_fixes": 4
+  },
+  "verdicts": {
+    "SCALE": 20,
+    "ITERATE": 64,
+    "KILL": 23,
+    "TOO_EARLY": 3
+  },
+  "kill_spend": 29501.76,
+  "kill_spend_pct": 17.8,
+  "by_field": {
+    "creator": [
+      {
+        "ads": 24,
+        "spend": 29936.27,
+        "roas": 1.65,
+        "cpa": 32.65,
+        "scale_ads": 6,
+        "value": "NO_CREATOR",
+        "spend_share_pct": 18.1
+      },
+      {
+        "ads": 20,
+        "spend": 33630.1,
+        "roas": 1.39,
+        "cpa": 38.92,
+        "scale_ads": 7,
+        "value": "ALEX",
+        "spend_share_pct": 20.3
+      },
+      {
+        "ads": 32,
+        "spend": 47651.3,
+        "roas": 1.23,
+        "cpa": 43.76,
+        "scale_ads": 5,
+        "value": "MAYA",
+        "spend_share_pct": 28.8
+      },
+      {
+        "ads": 22,
+        "spend": 34014.09,
+        "roas": 1.2,
+        "cpa": 45.11,
+        "scale_ads": 2,
+        "value": "JEN",
+        "spend_share_pct": 20.6
+      }
+    ],
+    "hook": [
+      {
+        "ads": 33,
+        "spend": 42709.42,
+        "roas": 1.52,
+        "cpa": 35.41,
+        "scale_ads": 12,
+        "value": "TASTE_TEST",
+        "spend_share_pct": 25.8
+      },
+      {
+        "ads": 23,
+        "spend": 28432.2,
+        "roas": 1.4,
+        "cpa": 38.47,
+        "scale_ads": 6,
+        "value": "INGREDIENT",
+        "spend_share_pct": 17.2
+      },
+      {
+        "ads": 20,
+        "spend": 45372.39,
+        "roas": 1.3,
+        "cpa": 41.59,
+        "scale_ads": 2,
+        "value": "MORNING_ROUTINE",
+        "spend_share_pct": 27.4
+      },
+      {
+        "ads": 22,
+        "spend": 28717.75,
+        "roas": 1.11,
+        "cpa": 48.84,
+        "scale_ads": 0,
+        "value": "FOUNDER_STORY",
+        "spend_share_pct": 17.4
+      }
+    ],
+    "format": [
+      {
+        "ads": 24,
+        "spend": 39395.97,
+        "roas": 1.46,
+        "cpa": 36.99,
+        "scale_ads": 7,
+        "value": "TALKING_HEAD",
+        "spend_share_pct": 23.8
+      },
+      {
+        "ads": 19,
+        "spend": 33290.14,
+        "roas": 1.36,
+        "cpa": 39.82,
+        "scale_ads": 1,
+        "value": "MEME",
+        "spend_share_pct": 20.1
+      },
+      {
+        "ads": 29,
+        "spend": 45003.19,
+        "roas": 1.31,
+        "cpa": 41.1,
+        "scale_ads": 5,
+        "value": "DEMO",
+        "spend_share_pct": 27.2
+      },
+      {
+        "ads": 26,
+        "spend": 27542.46,
+        "roas": 1.23,
+        "cpa": 43.86,
+        "scale_ads": 7,
+        "value": "TESTIMONIAL",
+        "spend_share_pct": 16.7
+      }
+    ]
+  },
+  "drivers": [
+    {
+      "field": "creator",
+      "best": "NO_CREATOR",
+      "best_value": 32.65,
+      "worst": "JEN",
+      "worst_value": 45.11,
+      "gap_pct": 38.2
+    },
+    {
+      "field": "hook",
+      "best": "TASTE_TEST",
+      "best_value": 35.41,
+      "worst": "FOUNDER_STORY",
+      "worst_value": 48.84,
+      "gap_pct": 37.9
+    },
+    {
+      "field": "format",
+      "best": "TALKING_HEAD",
+      "best_value": 36.99,
+      "worst": "TESTIMONIAL",
+      "worst_value": 43.86,
+      "gap_pct": 18.6
+    }
+  ],
+  "top_combos": [
+    {
+      "creator": "NO_CREATOR",
+      "hook": "TASTE_TEST",
+      "ads": 8,
+      "spend": 7657.0,
+      "roas": 1.94,
+      "cpa": 27.84,
+      "scale_ads": 2
+    },
+    {
+      "creator": "ALEX",
+      "hook": "INGREDIENT",
+      "ads": 3,
+      "spend": 3603.89,
+      "roas": 1.74,
+      "cpa": 31.07,
+      "scale_ads": 1
+    },
+    {
+      "creator": "ALEX",
+      "hook": "TASTE_TEST",
+      "ads": 8,
+      "spend": 10202.69,
+      "roas": 1.67,
+      "cpa": 32.29,
+      "scale_ads": 5
+    }
+  ],
+  "bottom_combos": [
+    {
+      "creator": "JEN",
+      "hook": "FOUNDER_STORY",
+      "ads": 4,
+      "spend": 3484.13,
+      "roas": 1.05,
+      "cpa": 51.24,
+      "scale_ads": 0
+    },
+    {
+      "creator": "ALEX",
+      "hook": "FOUNDER_STORY",
+      "ads": 6,
+      "spend": 9766.64,
+      "roas": 1.0,
+      "cpa": 53.96,
+      "scale_ads": 0
+    }
+  ],
+  "memo": {
+    "source": "template",
+    "figures_checked": 27,
+    "ungrounded": 0
+  }
+}

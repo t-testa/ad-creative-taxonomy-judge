@@ -1,0 +1,13 @@
+ad_id,platform,ad_name,spend,parse_reason,suggestion
+KG51200020,TikTok,Copy of Copy of ad,4371.52,"missing creator, hook, format",
+KG51200103,Meta,winner relaunch,3684.31,"missing creator, hook, format",
+KG51200067,Meta,SEP26 | Jen | Founder Story | Meme or Testimonial | 30s,3447.39,conflicting values for format,
+KG51200010,TikTok,2026-08 | Alex | Founder Story | Tstml | 60s,1430.26,missing format,'tstml' looks like format TESTIMONIAL: fix the name or add it as a spelling
+KG51200108,Meta,2026-10 / mya / morning routine / demo / 60s,1281.74,missing creator,'mya' looks like creator MAYA: fix the name or add it as a spelling
+KG51200004,TikTok,untitled 3,1235.46,"missing creator, hook, format",
+KG51200022,Meta,untitled 3,1046.03,"missing creator, hook, format",
+KG51200093,TikTok,2026-09 | No Creator | Taste Test | Testimonial or Demo | 60s,980.09,conflicting values for format,
+KG51200049,TikTok,Oct26 | No Creator | Founder Story | Testimonial or Demo | 60s,891.68,conflicting values for format,
+KG51200102,TikTok,2026-09 | mya | founder story | testimonial | 60s,785.34,missing creator,'mya' looks like creator MAYA: fix the name or add it as a spelling
+KG51200087,TikTok,SEP26 / Alex / Ingrdnt / Demo / 60s,591.26,missing hook,'ingrdnt' looks like hook INGREDIENT: fix the name or add it as a spelling
+KG51200100,Meta,Sept | Alex | Ingredient | Meme or Testimonial | 60s,429.92,conflicting values for format,

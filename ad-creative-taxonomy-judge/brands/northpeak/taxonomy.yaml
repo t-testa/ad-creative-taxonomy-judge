@@ -1,0 +1,40 @@
+# Northpeak Apparel: how this brand names its ads, and how it judges them.
+# Adding a brand means adding a folder like this one. No code changes.
+brand: Northpeak Apparel
+primary_metric: roas          # what "good" means for this brand
+min_confidence: 0.8           # below this, a parse goes to review instead of being trusted
+
+# Platform exports this brand sends, mapped onto the common schema.
+exports:
+  - file: northpeak_meta.csv
+    platform: Meta
+    columns:
+      "Ad name": ad_name
+      "Ad ID": ad_id
+      "Amount spent (CAD)": spend
+      "Impressions": impressions
+      "Link clicks": clicks
+      "3-second video plays": video_3s
+      "Purchases": purchases
+      "Purchases conversion value": revenue
+
+# The brand's naming convention: FORMAT_HOOK_CREATOR_vN
+required: [format, hook, creator]
+fields:
+  format:
+    UGC: [ugc, user generated]
+    STATIC: [static, image, img]
+    CAROUSEL: [carousel, carou]
+    STUDIO: [studio, production, prod]
+  hook:
+    PAIN_POINT: [pain point, painpoint, pp]
+    SOCIAL_PROOF: [social proof, socialproof, sp, reviews]
+    OFFER: [offer, sale, promo, discount]
+    BEFORE_AFTER: [before after, beforeafter, ba]
+  creator:
+    SARAH: [sarah]
+    MARCUS: [marcus]
+    PRIYA: [priya]
+    IN_HOUSE: [in house, inhouse, brand team]
+patterns:
+  version: 'v0*(\d{1,2})'

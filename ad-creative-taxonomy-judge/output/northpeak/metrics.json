@@ -1,0 +1,229 @@
+{
+  "brand": "Northpeak Apparel",
+  "slug": "northpeak",
+  "primary_metric": "roas",
+  "platforms": [
+    "Meta"
+  ],
+  "total": {
+    "ads": 140,
+    "spend": 200410.13,
+    "roas": 2.55,
+    "cpa": 33.69,
+    "scale_ads": 27
+  },
+  "parsing": {
+    "ads": 140,
+    "auto": 116,
+    "llm": 0,
+    "review": 24,
+    "typo_corrected": 10,
+    "auto_pct": 82.9,
+    "review_spend": 32303.1,
+    "suggested_fixes": 13
+  },
+  "verdicts": {
+    "SCALE": 27,
+    "ITERATE": 66,
+    "KILL": 37,
+    "TOO_EARLY": 10
+  },
+  "kill_spend": 56334.52,
+  "kill_spend_pct": 28.1,
+  "by_field": {
+    "format": [
+      {
+        "ads": 24,
+        "spend": 49188.6,
+        "roas": 3.24,
+        "cpa": 26.59,
+        "scale_ads": 9,
+        "value": "UGC",
+        "spend_share_pct": 24.5
+      },
+      {
+        "ads": 31,
+        "spend": 35188.99,
+        "roas": 2.53,
+        "cpa": 33.97,
+        "scale_ads": 7,
+        "value": "CAROUSEL",
+        "spend_share_pct": 17.6
+      },
+      {
+        "ads": 32,
+        "spend": 43114.12,
+        "roas": 2.11,
+        "cpa": 40.75,
+        "scale_ads": 4,
+        "value": "STATIC",
+        "spend_share_pct": 21.5
+      },
+      {
+        "ads": 29,
+        "spend": 40615.32,
+        "roas": 2.09,
+        "cpa": 41.03,
+        "scale_ads": 0,
+        "value": "STUDIO",
+        "spend_share_pct": 20.3
+      }
+    ],
+    "hook": [
+      {
+        "ads": 25,
+        "spend": 35510.35,
+        "roas": 2.8,
+        "cpa": 30.77,
+        "scale_ads": 7,
+        "value": "BEFORE_AFTER",
+        "spend_share_pct": 17.7
+      },
+      {
+        "ads": 28,
+        "spend": 46016.71,
+        "roas": 2.68,
+        "cpa": 32.05,
+        "scale_ads": 8,
+        "value": "PAIN_POINT",
+        "spend_share_pct": 23.0
+      },
+      {
+        "ads": 33,
+        "spend": 51752.67,
+        "roas": 2.49,
+        "cpa": 34.57,
+        "scale_ads": 3,
+        "value": "SOCIAL_PROOF",
+        "spend_share_pct": 25.8
+      },
+      {
+        "ads": 30,
+        "spend": 34827.3,
+        "roas": 2.09,
+        "cpa": 41.12,
+        "scale_ads": 2,
+        "value": "OFFER",
+        "spend_share_pct": 17.4
+      }
+    ],
+    "creator": [
+      {
+        "ads": 21,
+        "spend": 25514.46,
+        "roas": 3.17,
+        "cpa": 27.06,
+        "scale_ads": 5,
+        "value": "SARAH",
+        "spend_share_pct": 12.7
+      },
+      {
+        "ads": 34,
+        "spend": 54882.63,
+        "roas": 2.62,
+        "cpa": 32.8,
+        "scale_ads": 7,
+        "value": "PRIYA",
+        "spend_share_pct": 27.4
+      },
+      {
+        "ads": 33,
+        "spend": 46590.43,
+        "roas": 2.31,
+        "cpa": 37.24,
+        "scale_ads": 4,
+        "value": "IN_HOUSE",
+        "spend_share_pct": 23.2
+      },
+      {
+        "ads": 28,
+        "spend": 41119.51,
+        "roas": 2.23,
+        "cpa": 38.54,
+        "scale_ads": 4,
+        "value": "MARCUS",
+        "spend_share_pct": 20.5
+      }
+    ]
+  },
+  "drivers": [
+    {
+      "field": "format",
+      "best": "UGC",
+      "best_value": 3.24,
+      "worst": "STUDIO",
+      "worst_value": 2.09,
+      "gap_pct": 55.0
+    },
+    {
+      "field": "creator",
+      "best": "SARAH",
+      "best_value": 3.17,
+      "worst": "MARCUS",
+      "worst_value": 2.23,
+      "gap_pct": 42.2
+    },
+    {
+      "field": "hook",
+      "best": "BEFORE_AFTER",
+      "best_value": 2.8,
+      "worst": "OFFER",
+      "worst_value": 2.09,
+      "gap_pct": 34.0
+    }
+  ],
+  "top_combos": [
+    {
+      "format": "UGC",
+      "hook": "BEFORE_AFTER",
+      "ads": 5,
+      "spend": 11534.92,
+      "roas": 3.99,
+      "cpa": 21.6,
+      "scale_ads": 4
+    },
+    {
+      "format": "UGC",
+      "hook": "SOCIAL_PROOF",
+      "ads": 5,
+      "spend": 12832.06,
+      "roas": 3.5,
+      "cpa": 24.63,
+      "scale_ads": 2
+    },
+    {
+      "format": "CAROUSEL",
+      "hook": "PAIN_POINT",
+      "ads": 7,
+      "spend": 7962.04,
+      "roas": 2.98,
+      "cpa": 28.74,
+      "scale_ads": 4
+    }
+  ],
+  "bottom_combos": [
+    {
+      "format": "STUDIO",
+      "hook": "SOCIAL_PROOF",
+      "ads": 6,
+      "spend": 5245.81,
+      "roas": 1.83,
+      "cpa": 46.84,
+      "scale_ads": 0
+    },
+    {
+      "format": "STUDIO",
+      "hook": "OFFER",
+      "ads": 8,
+      "spend": 10520.65,
+      "roas": 1.63,
+      "cpa": 52.6,
+      "scale_ads": 0
+    }
+  ],
+  "memo": {
+    "source": "template",
+    "figures_checked": 27,
+    "ungrounded": 0
+  }
+}
